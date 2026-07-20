@@ -1,61 +1,56 @@
-primary_name: "Your Name"
-secondary_name: ""
-navbar_name: "Your Name"
+primary_name: "Yitong Han"
+secondary_name: "韩祎童"
+navbar_name: "Yitong Han"
 
 positions:
-- name: Title or Position
-- name: Affiliation Name
-  logo: /assets/images/badges/MIT_Social_circle.png  # Logo is optional
+- name: Undergraduate Researcher, Data Mining Lab
+- name: Guangdong University of Foreign Studies
 
 
-email: "your@email.com"
-# cv_link: link-to-your-cv-file
-gscholar: xFmQpf4AAAAJ  # This is an example, replace it with your own Google Scholar ID
-github: your_github_id
-twitter: your_twitter_id  # Do not include the '@' symbol
-# wechat_qrcode: /assets/images/etc/wechat.jpg
-# wechat_prompt: >-
-#   Please tell me your <strong>name</strong> and <strong>affiliation</strong> (current or past) when adding my wechat. Thanks!
+email: "20231003317@mail.gdufs.edu.cn"
+# cv_link: /assets/Yitong_Han_CV.pdf
+# gscholar: xFmQpf4AAAAJ
+# github: your_github_id
+# twitter: your_twitter_id  # Do not include the '@' symbol
 # linkedin: your-linked-in-id
 # orcid: 0000-0000-0000-0000
 
-short_bio_text_justify: false
+short_bio_text_justify: true
 short_bio: >-
   <p>
-    A <a href="https://en.wikipedia.org/wiki/Bicolor_cat" target="_blank">bicolor cat</a> is a cat with white fur combined with fur of some other colour, for example solid black, tabby, or colourpointed.
+    I am an undergraduate student in Software Engineering at Guangdong University of Foreign Studies (GDUFS),
+    working as a research assistant in the Data Mining Lab.
   </p>
   <p>
-    There are various patterns of a bicolour cat. These range from the Van-patterned (colour on the crown of the head 
-    and the tail only) to a solid colour with a throat locket or medallion. Bicolour coats are found in many cat breeds, 
-    as well as being common in domestic longhair and domestic shorthair cats.
+    My research interests lie in <strong>large language model post-training</strong> and <strong>multimodal learning</strong>,
+    with a particular focus on alignment, interpretability, and generalization under noisy or low-resource conditions.
+    My current work includes (i) multimodal graph structure learning for aspect sentiment classification with
+    cross-modal uncertainty modeling, and (ii) RL-based alignment of LLMs that bridges training and inference
+    objectives via vote-guided policy optimization.
   </p>
 
 portrait_url: /assets/images/photos/portrait.jpg
-portrait_caption: >-
-  Photo by Manja Vitolic on Unsplash (this caption is optional, comment it out to disable).
+# portrait_caption: >-
+#   Optional caption under your portrait.
 
 education:
-- name: Massachusetts Institute of Technology
-  logo: /assets/images/badges/MIT_Social_circle.png
-  position: >- 
-    Department of Electrical Engineering and Computer Science <br/>
-    Ph.D. Student
-  date: Sep. 2024 - present
-- name: Peking University
-  logo: /assets/images/badges/PKU_red.png
-  position: B.S. in Computer Science
-  date: Sep. 2019 - Jul. 2021
+- name: Guangdong University of Foreign Studies
+  position: >-
+    B.Eng. in Software Engineering <br/>
+    Core AI Coursework GPA: 93+ / 100
+  date: Sep. 2023 - Jun. 2027 (Expected)
 
-# experience:
-# - name: Peking University
-#   logo: /assets/images/badges/PKU_red.png
-#   position: Research Intern
-#   date: Sep. 2019 - Jul. 2021
+experience:
+- name: Data Mining Lab, GDUFS
+  position: Research Assistant
+  date: Jan. 2025 - present
 
 awards:
-- name: Award Name 2
-  date: 2024
-- name: Award Name 1 
-  date: 2021
-- name: A quick brown fox jumps over the lazy dog and runs away award
-  date: 2021
+- name: Honorable Mention, Mathematical Contest in Modeling (MCM/ICM)
+  date: 2026
+- name: Bronze Award (Provincial), China International College Students' Innovation Competition
+  date: 2026
+- name: Second Prize (Provincial), Cross-Strait Collegiate Computer Innovation Competition
+  date: 2025
+- name: Third Prize (Provincial), China Collegiate Computing Contest
+  date: 2025 & 2026
