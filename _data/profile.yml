@@ -11,7 +11,7 @@ positions:
 email: "20231003317@mail.gdufs.edu.cn"
 # cv_link: /assets/Yitong_Han_CV.pdf
 # gscholar: xFmQpf4AAAAJ
-# github: Hanyiton
+github: HanYiton
 # twitter: your_twitter_id  # Do not include the '@' symbol
 # linkedin: your-linked-in-id
 # orcid: 0000-0000-0000-0000
@@ -33,9 +33,7 @@ portrait_url: /assets/images/photos/portrait.jpg
 
 education:
 - name: Guangdong University of Foreign Studies
-  position: >-
-    B.Eng. in Software Engineering <br/>
-    Core AI Coursework GPA: 93+ / 100
+  position: B.Eng. in Software Engineering
   date: Sep. 2023 - Jun. 2027 (Expected)
 
 experience:
@@ -46,9 +44,3 @@ experience:
 awards:
 - name: Honorable Mention, Mathematical Contest in Modeling (MCM/ICM)
   date: 2026
-- name: Bronze Award (Provincial), China International College Students' Innovation Competition
-  date: 2026
-- name: Second Prize (Provincial), Cross-Strait Collegiate Computer Innovation Competition
-  date: 2025
-- name: Third Prize (Provincial), China Collegiate Computing Contest
-  date: 2025 & 2026
