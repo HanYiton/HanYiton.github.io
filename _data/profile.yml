@@ -3,14 +3,15 @@ secondary_name: "韩祎童"
 navbar_name: "Yitong Han"
 
 positions:
-- name: Undergraduate Researcher, Data Mining Lab
+- name: Undergraduate Researcher
+- name: Data Mining Lab
 - name: Guangdong University of Foreign Studies
 
 
 email: "20231003317@mail.gdufs.edu.cn"
 # cv_link: /assets/Yitong_Han_CV.pdf
 # gscholar: xFmQpf4AAAAJ
-# github: your_github_id
+# github: Hanyiton
 # twitter: your_twitter_id  # Do not include the '@' symbol
 # linkedin: your-linked-in-id
 # orcid: 0000-0000-0000-0000
@@ -19,14 +20,11 @@ short_bio_text_justify: true
 short_bio: >-
   <p>
     I am an undergraduate student in Software Engineering at Guangdong University of Foreign Studies (GDUFS),
-    working as a research assistant in the Data Mining Lab.
+    a member of Data Mining Lab.
   </p>
   <p>
-    My research interests lie in <strong>large language model post-training</strong> and <strong>multimodal learning</strong>,
-    with a particular focus on alignment, interpretability, and generalization under noisy or low-resource conditions.
-    My current work includes (i) multimodal graph structure learning for aspect sentiment classification with
-    cross-modal uncertainty modeling, and (ii) RL-based alignment of LLMs that bridges training and inference
-    objectives via vote-guided policy optimization.
+    My research interests lie in <strong>large language models</strong> and <strong>Natural Language Processing</strong>.
+    My current work includes Multilingual/Chinese text error correction.
   </p>
 
 portrait_url: /assets/images/photos/portrait.jpg
@@ -42,7 +40,7 @@ education:
 
 experience:
 - name: Data Mining Lab, GDUFS
-  position: Research Assistant
+  position: Member
   date: Jan. 2025 - present
 
 awards:
