@@ -6,12 +6,12 @@ pub:            "Journal of Frontiers of Computer Science and Technology"
 pub_last:       ' <span class="badge badge-pill badge-publication badge-success">CCF-B</span>'
 pub_date:       "2026"
 authors:
-  - N. Lin
-  - Y. Han
-  - H. Wu
-  - B. Ruan
-  - S. Jiang
-  - L. Wang
+  - Nankai Lin
+  - Yitong Han
+  - Hongyan Wu
+  - Bowen Ruan
+  - Shengyi Jiang
+  - Lianxi Wang
 # links:
 #   Paper: #
 ---
