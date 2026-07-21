@@ -4,6 +4,7 @@
         {% if include.title %}{{ include.title }}{% else %}<i class="fas fa-star"></i> Selected Recent Publications{% endif %} 
         <a href="{{ 'publications' | relative_url }}">(view all <i class="fas fa-angle-double-right"></i>)</a>
     </h6>
+    <p class="small text-muted px-3 pt-2 mb-0"><strong>Yitong Han</strong> is in bold. &nbsp; <sup>*</sup> co-first author &nbsp; <sup>#</sup> corresponding author</p>
     {% for item in publications limit:include.limit %}
         {% include widgets/publication_item.html item=item first=false last=false %}    
     {% endfor %}

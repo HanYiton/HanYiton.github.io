@@ -7,7 +7,7 @@ pub_last:       ' <span class="badge badge-pill badge-publication badge-success"
 pub_date:       "2026"
 authors:
   - Nankai Lin
-  - Yitong Han
+  - Yitong Han*
   - Hongyan Wu
   - Bowen Ruan
   - Shengyi Jiang#
