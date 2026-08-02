@@ -10,7 +10,7 @@ authors:
   - Yitong Han
   - Hongyan Wu
   - Bowen Ruan
-  - Shengyi Jiang#
+  - Shengyi Jiang†
   - Lianxi Wang
 # links:
 #   Paper: #
