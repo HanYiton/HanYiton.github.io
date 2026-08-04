@@ -1,10 +1,11 @@
 ---
-title:          "多语种文本纠错技术研究现状与进展综述"
+title:          "A Review of Multilingual Text Error Correction: Current Status and Technological Progress"
 date:           2026-01-01 00:01:00 +0800
 selected:       true
-pub:            "计算机科学与探索"
+pub:            "Journal of Frontiers of Computer Science and Technology"
 pub_last:       ' <span class="badge badge-pill badge-publication badge-success">CCF-B</span>'
 pub_date:       "2026"
+link: http://fcst.ceaj.org/CN/10.3778/j.issn.1673-9418.2511029
 authors:
   - Nankai Lin
   - Yitong Han
@@ -12,6 +13,4 @@ authors:
   - Bowen Ruan
   - Shengyi Jiang†
   - Lianxi Wang
-# links:
-#   Paper: #
 ---
