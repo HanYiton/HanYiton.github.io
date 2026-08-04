@@ -5,6 +5,7 @@ selected:       true
 pub:            "Data Intelligence"
 pub_last:       ' <span class="badge badge-pill badge-publication badge-success">SCI Q2</span>'
 pub_date:       "2025"
+cover:          /assets/images/covers/discern-framework.png
 authors:
   - Bowen Ruan
   - Hongyan Wu
@@ -12,5 +13,6 @@ authors:
   - Shengyi Jiang
   - Lianxi Wang
   - Nankai Lin†
-link: https://www.sciengine.com/DI/doi/10.3724/2096-7004.di.2025.0117
+links:
+  Paper: https://www.sciengine.com/DI/doi/10.3724/2096-7004.di.2025.0117
 ---
