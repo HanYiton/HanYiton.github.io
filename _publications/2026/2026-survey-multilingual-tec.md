@@ -3,7 +3,6 @@ title:          "A Review of Multilingual Text Error Correction: Current Status 
 date:           2026-01-15 10:00:00 +0800
 selected:       true
 pub:            "Journal of Frontiers of Computer Science and Technology"
-pub_last:       ' <span class="badge badge-pill badge-publication badge-success">CCF-B</span>'
 pub_date:       "2026"
 cover:          /assets/images/covers/survey-flowchart.png
 authors:
