@@ -1,6 +1,6 @@
 ---
 title:          "A Review of Multilingual Text Error Correction: Current Status and Technological Progress"
-date:           2026-01-01 12:00:00 +0800
+date:           2026-01-15 10:00:00 +0800
 selected:       true
 pub:            "Journal of Frontiers of Computer Science and Technology"
 pub_last:       ' <span class="badge badge-pill badge-publication badge-success">CCF-B</span>'
