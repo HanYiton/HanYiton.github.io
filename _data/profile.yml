@@ -36,6 +36,10 @@ portrait_url: /assets/images/photos/portrait.jpg
 #   Optional caption under your portrait.
 
 education:
+- name: Singapore Management University
+  position: Visiting Student
+  logo: /assets/images/badges/Singapore_Management_University_Logo.png
+  date: Jul. 2026 - present
 - name: Guangdong University of Foreign Studies
   dept: School of Information Science and Technology
   logo: /assets/images/gdufs-emblem.webp
