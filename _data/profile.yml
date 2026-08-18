@@ -37,6 +37,7 @@ portrait_url: /assets/images/photos/portrait.jpg
 
 education:
 - name: Singapore Management University
+  dept: School of Computing and Information Systems
   position: Visiting Student
   logo: /assets/images/badges/Singapore_Management_University_Logo.png
   date: Jul. 2026 - present
