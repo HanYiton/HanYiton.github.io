@@ -25,7 +25,7 @@ short_bio: >-
     text error correction, as well as sentiment classification.
   </p>
   <p>
-    I am currently a visiting student at Singapore Management University (SMU), conducting research on Trustworthy AI for Social Good.
+    I am currently a visiting research student at Singapore Management University (SMU), conducting research on Trustworthy AI for Social Good.
   </p>
   <p>
     For academic discussion, feel free to contact me at
@@ -39,7 +39,7 @@ portrait_url: /assets/images/photos/portrait.jpg
 education:
 - name: Singapore Management University
   dept: School of Computing and Information Systems
-  position: Visiting Student
+  position: Visiting Research Student
   logo: /assets/images/badges/Singapore_Management_University_Logo.png
   date: Jul. 2026 - present
 - name: Guangdong University of Foreign Studies
