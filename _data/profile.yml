@@ -20,7 +20,10 @@ short_bio_text_justify: true
 short_bio: >-
   <p>
     I am an undergraduate student in Software Engineering at Guangdong University of Foreign Studies (GDUFS),
-    where I am a member of the Data Mining Lab. My research interests lie in <strong>Large Language Models</strong> and
+    where I am a member of the Data Mining Lab. 
+  </p>
+  <p>
+    My research interests lie in <strong>Large Language Models</strong> and
     <strong>Natural Language Processing</strong>. During my work at the Data Mining Lab, I have worked on multilingual/Chinese
     text error correction, as well as sentiment classification.
   </p>
