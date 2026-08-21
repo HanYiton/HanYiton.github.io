@@ -91,3 +91,66 @@ div.lazy {
 .email-text {
     font-family: Source Code Pro, monospace;
 }
+/* Lightbox for publication figures */
+.publication-cover-link {
+    display: block;
+    cursor: zoom-in;
+}
+
+.lightbox-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 2000;
+    background: rgba(0, 0, 0, 0.88);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: zoom-out;
+}
+
+.lightbox-overlay img {
+    max-width: 92vw;
+    max-height: 92vh;
+    box-shadow: 0 0 30px rgba(0, 0, 0, 0.6);
+    border-radius: 4px;
+}
+
+.lightbox-close {
+    position: absolute;
+    top: 10px;
+    right: 24px;
+    font-size: 42px;
+    line-height: 1;
+    color: #fff;
+    background: none;
+    border: none;
+    cursor: pointer;
+    opacity: 0.85;
+    z-index: 2001;
+}
+
+.lightbox-close:hover {
+    opacity: 1;
+}
+
+.mobile-zoom {
+    position: absolute;
+    top: 10px;
+    right: 14px;
+    z-index: 2;
+    font-size: 13px;
+    color: #fff;
+    background: rgba(0, 0, 0, 0.45);
+    padding: 4px 9px;
+    border-radius: 4px;
+    text-decoration: none;
+}
+
+.mobile-zoom:hover {
+    background: rgba(0, 0, 0, 0.65);
+    color: #fff;
+    text-decoration: none;
+}

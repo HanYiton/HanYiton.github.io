@@ -7,7 +7,7 @@ pub_date:       "2026"
 cover:          /assets/images/covers/vaa-csec-framework.png
 authors:
   - Yitong Han
-  - Nankai Lin
+  - Nankai Lin†
   - Juan Luo
   - Hongyan Wu
   - Lianxi Wang
