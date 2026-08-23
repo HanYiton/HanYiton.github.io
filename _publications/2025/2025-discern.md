@@ -1,7 +1,7 @@
 ---
 title:          "DISCERN: Chain-of-Thought-Augmented Syntactic-based In-Context Learning for Chinese Semantic Detection"
 date:           2025-06-01 00:01:00 +0800
-selected:       true
+selected:       false
 pub:            "Data Intelligence"
 pub_date:       "2025"
 cover:          /assets/images/covers/discern-framework.png

@@ -1,7 +1,7 @@
 ---
 title:          "ConfusEval: A Chinese Language Vocabulary Understanding Evaluation Benchmark"
 date:           2026-08-04 12:00:00 +0800
-selected:       true
+selected:       false
 pub:            "NLPCC"
 pub_last:       ' <span class="badge badge-pill badge-publication badge-success">Poster</span>'
 pub_date:       "2026"
