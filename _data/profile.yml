@@ -40,16 +40,22 @@ portrait_url: /assets/images/photos/portrait.jpg
 #   Optional caption under your portrait.
 
 education:
-- name: Singapore Management University
-  dept: School of Computing and Information Systems
-  position: Visiting Research Student
-  logo: /assets/images/badges/Singapore_Management_University_Logo.png
-  date: Jul. 2026 - present
 - name: Guangdong University of Foreign Studies
   dept: School of Information Science and Technology
   logo: /assets/images/gdufs-emblem.webp
   position: B.Eng. in Software Engineering
   date: Sep. 2023 - present
+
+experience:
+- name: Singapore Management University
+  dept: School of Computing and Information Systems
+  position: Visiting Student
+  logo: /assets/images/badges/Singapore_Management_University_Logo.png
+  date: Jul. 2026 - present
+- name: Data Mining Lab, GDUFS
+  position: Member
+  logo: /assets/images/datamining-lab.jpg
+  date: Sep. 2024 - present
 
 awards:
 - name: Honorable Mention in the Mathematical Contest in Modeling (MCM/ICM)
