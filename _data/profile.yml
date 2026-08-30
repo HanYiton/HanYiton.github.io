@@ -47,15 +47,16 @@ education:
   date: Sep. 2023 - present
 
 experience:
-- name: Singapore Management University
-  dept: School of Computing and Information Systems
-  position: Visiting Student
+- name: Social NLP group
+  dept: Singapore Management University
+  position: Visiting Research Student
   logo: /assets/images/badges/Singapore_Management_University_Logo.png
   date: Jul. 2026 - present
-- name: Data Mining Lab, GDUFS
-  position: Member
+- name: Data Mining Lab
+  dept: Guangdong University of Foreign Studies
+  position: Research Assistant
   logo: /assets/images/datamining-lab.jpg
-  date: Sep. 2024 - present
+  date: Nov. 2024 - present
 
 awards:
 - name: Honorable Mention in the Mathematical Contest in Modeling (MCM/ICM)
