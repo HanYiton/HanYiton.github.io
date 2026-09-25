@@ -3,6 +3,7 @@ title:          "VAA-CSEC: Vote-guided Advantage Allocation for Chinese Semantic
 date:           2026-08-21 12:00:00 +0800
 selected:       true
 pub:            "The 2026 Conference on Empirical Methods in Natural Language Processing (EMNLP 2026)"
+pub_last:       ' <span class="badge badge-pill badge-publication badge-success">Oral</span>'
 pub_date:       "2026"
 cover:          /assets/images/covers/vaa-csec-framework.png
 authors:
