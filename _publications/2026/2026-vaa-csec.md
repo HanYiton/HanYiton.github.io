@@ -16,4 +16,5 @@ authors:
 links:
   Paper: http://arxiv.org/abs/2609.36804
   Code: https://github.com/HanYiton/VAA-CSEC
+  Model: https://huggingface.co/Hanyiton/VAA-CSEC/tree/main
 ---
