@@ -28,7 +28,7 @@ short_bio: >-
     text error correction, as well as sentiment classification.
   </p>
   <p>
-    <strong>I am currently a visiting research student at Singapore Management University (SMU), conducting research on Trustworthy AI for Social Good.</strong>
+    <strong>I am currently a visiting research student at Singapore Management University (SMU), conducting research on Trustworthy AI for Social Good under the guidence of Prof.Wei Gao.</strong>
   </p>
   <p>
     For academic discussion, feel free to contact me at
@@ -51,7 +51,7 @@ experience:
   dept: Singapore Management University
   position: Visiting Research Student
   logo: /assets/images/badges/Singapore_Management_University_Logo.png
-  date: Jul. 2026 - present
+  date: Sep. 2026 - present
 - name: Data Mining Lab
   dept: Guangdong University of Foreign Studies
   position: Research Assistant
@@ -61,3 +61,5 @@ experience:
 awards:
 - name: Honorable Mention in the Mathematical Contest in Modeling (MCM/ICM)
   date: Apr. 2026
+- name: Yunge Scholarship
+  date: Sep. 2026
