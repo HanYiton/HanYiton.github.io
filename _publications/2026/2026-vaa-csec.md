@@ -14,6 +14,6 @@ authors:
   - Lianxi Wang
   - Shengyi Jiang
 links:
-  Code: https://github.com/HanYiton/VAA-CSEC
   Paper: http://arxiv.org/abs/2609.36804
+  Code: https://github.com/HanYiton/VAA-CSEC
 ---
