@@ -23,8 +23,7 @@ short_bio: >-
     where I am a member of the Data Mining Lab. 
   </p>
   <p>
-    My research interests lie in <strong>Large Language Models</strong> and
-    <strong>Natural Language Processing</strong>. During my work at the Data Mining Lab, I have worked on multilingual/Chinese
+    During my work at the Data Mining Lab, I have worked on multilingual/Chinese
     text error correction, as well as sentiment classification.
   </p>
   <p>
@@ -36,6 +35,7 @@ short_bio: >-
   </p>
 
 portrait_url: /assets/images/photos/me.jpg
+photo_url_2: /assets/images/photos/me_crop.jpg
 # portrait_caption: >-
 #   Optional caption under your portrait.
 

@@ -5,6 +5,23 @@ body {
     padding-top: 5.0rem;
 }
 
+/* A wider reading column for the homepage and the fixed navigation. */
+.container-wide {
+    width: 100%;
+    max-width: 1280px;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+@media (max-width: 575.98px) {
+    .container-wide {
+        padding-right: 10px;
+        padding-left: 10px;
+    }
+}
+
 h1, h2, h3, h4, h5, h6,
 .h1, .h2, .h3, .h4, .h5, .h6 {
     font-weight: 700;
@@ -147,6 +164,118 @@ div.lazy {
     padding: 4px 9px;
     border-radius: 4px;
     text-decoration: none;
+}
+
+/* ===== Avatar slider (inside the About Me section) ===== */
+.avatar-slider {
+    position: relative;
+    width: 176px;
+}
+
+/* On medium and wider screens, let the About Me copy flow around the slider. */
+@media (min-width: 768px) {
+    .avatar-slider {
+        float: right;
+        margin: 0.15rem 0 1rem 2rem;
+    }
+}
+
+/* On small screens, center it and show it as a circle */
+@media (max-width: 767.98px) {
+    .avatar-slider {
+        width: 140px;
+        margin: 0 auto 1.25rem;
+    }
+}
+
+.avatar-slider-track {
+    position: relative;
+}
+
+.avatar-slide {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    background: #fff;
+    border: 1px solid #dee2e6;
+    border-radius: 0.8rem;
+    padding: 0.25rem;
+    opacity: 0;
+}
+
+.avatar-slide.active {
+    position: relative;
+    opacity: 1;
+}
+
+@media (max-width: 767.98px) {
+    .avatar-slide {
+        height: 140px;
+        border-radius: 50%;
+    }
+}
+
+/* Dot indicators */
+.avatar-slider-dots {
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 9px;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    z-index: 3;
+}
+
+.avatar-slider-dots li {
+    width: 6px;
+    height: 6px;
+    margin: 0 3px;
+    border-radius: 50%;
+    background-color: rgba(0, 0, 0, 0.3);
+    cursor: pointer;
+    transition: background-color 0.2s ease;
+}
+
+.avatar-slider-dots li.active {
+    background-color: rgba(0, 0, 0, 0.75);
+}
+
+/* Prev / next arrows */
+.avatar-slider-arrow {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 26px;
+    height: 26px;
+    padding: 0;
+    border: 0;
+    border-radius: 50%;
+    background: rgba(255, 255, 255, 0.75);
+    color: #333;
+    font-size: 10px;
+    line-height: 26px;
+    text-align: center;
+    opacity: 0;
+    cursor: pointer;
+    transition: opacity 0.2s ease;
+    z-index: 3;
+}
+
+.avatar-slider-arrow.prev { left: 6px; }
+.avatar-slider-arrow.next { right: 6px; }
+
+.avatar-slider:hover .avatar-slider-arrow {
+    opacity: 0.9;
+}
+
+.avatar-slider-arrow:hover {
+    background: rgba(255, 255, 255, 0.95);
 }
 
 .mobile-zoom:hover {
