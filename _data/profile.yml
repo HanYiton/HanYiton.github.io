@@ -3,7 +3,7 @@ secondary_name: "韩祎童"
 navbar_name: "Yitong Han"
 
 positions:
-- name: Undergraduate Researcher
+- name: Undergraduate
 - name: Data Mining Lab
 - name: Guangdong University of Foreign Studies
 
@@ -23,19 +23,17 @@ short_bio: >-
     where I am a member of the Data Mining Lab. 
   </p>
   <p>
-    During my work at the Data Mining Lab, I have worked on multilingual/Chinese
+    During my time at the Data Mining Lab, I have worked on multilingual/Chinese
     text error correction, as well as sentiment classification.
   </p>
   <p>
     <strong>I am currently a visiting research student at Singapore Management University (SMU), conducting research on Trustworthy AI for Social Good.</strong>
   </p>
   <p>
-    For academic discussion, feel free to contact me at
-    <a href="mailto:20231003317@mail.gdufs.edu.cn">20231003317@mail.gdufs.edu.cn</a>.
+    For academic discussion, feel free to contact me by <a href="mailto:20231003317@mail.gdufs.edu.cn">email</a>.
   </p>
 
-portrait_url: /assets/images/photos/me.jpg
-photo_url_2: /assets/images/photos/me_crop.jpg
+portrait_url: /assets/images/photos/me_crop.jpg
 # portrait_caption: >-
 #   Optional caption under your portrait.
 

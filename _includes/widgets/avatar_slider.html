@@ -1,23 +1,8 @@
-{% assign avatar_photo_2 = site.data.profile.photo_url_2 | default: '/assets/images/photos/me.jpg' %}
 <div class="avatar-slider" id="avatar-slider">
     <div class="avatar-slider-track">
         <img
             src="{{ site.data.profile.portrait_url | relative_url }}"
             class="avatar-slide active"
             alt="Portrait of {{ site.data.profile.primary_name }}">
-        <img
-            src="{{ avatar_photo_2 | relative_url }}"
-            class="avatar-slide"
-            alt="Photo of {{ site.data.profile.primary_name }}">
     </div>
-    <ol class="avatar-slider-dots">
-        <li class="active" data-slide-to="0"></li>
-        <li data-slide-to="1"></li>
-    </ol>
-    <button class="avatar-slider-arrow prev" type="button" aria-label="Previous photo">
-        <i class="fas fa-chevron-left"></i>
-    </button>
-    <button class="avatar-slider-arrow next" type="button" aria-label="Next photo">
-        <i class="fas fa-chevron-right"></i>
-    </button>
 </div>
