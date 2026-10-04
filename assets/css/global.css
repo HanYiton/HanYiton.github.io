@@ -20,8 +20,18 @@ body {
     margin-left: auto;
 }
 
+.container-navbar {
+    width: 100%;
+    max-width: 1140px;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
 @media (max-width: 575.98px) {
-    .container-wide {
+    .container-wide,
+    .container-navbar {
         padding-right: 10px;
         padding-left: 10px;
     }
