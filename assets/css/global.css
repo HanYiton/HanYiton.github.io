@@ -80,6 +80,37 @@ h1, h2, h3, h4, h5, h6,
     -webkit-backdrop-filter: blur(16px);
 }
 
+/* Keep the brand and page links on one line even when Bootstrap is unavailable. */
+@media (min-width: 576px) {
+    .navbar > .container-navbar {
+        display: flex;
+        flex-wrap: nowrap;
+        align-items: center;
+    }
+
+    .navbar-brand {
+        display: inline-block;
+        white-space: nowrap;
+        margin-right: 1rem;
+    }
+
+    .navbar-collapse {
+        display: flex !important;
+        flex-basis: auto;
+        flex-grow: 1;
+        align-items: center;
+    }
+
+    .navbar-nav {
+        display: flex;
+        flex-direction: row;
+        list-style: none;
+        margin-top: 0;
+        margin-bottom: 0;
+        margin-left: auto;
+    }
+}
+
 .inline-badge {
     height: 16px;
     vertical-align: -10%;
@@ -121,6 +152,7 @@ div.lazy {
     font-weight: 700;
     letter-spacing: 0.02em;
     padding: 0.3em 0.7em;
+    border-radius: 0.35rem !important;
     vertical-align: 0.08em;
 }
 
