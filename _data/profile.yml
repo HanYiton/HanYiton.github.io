@@ -4,7 +4,6 @@ navbar_name: "Yitong Han"
 
 positions:
 - name: Undergraduate
-- name: Data Mining Lab
 - name: Guangdong University of Foreign Studies
 
 
@@ -23,14 +22,14 @@ short_bio: >-
     where I am a member of the Data Mining Lab. 
   </p>
   <p>
-    During my time at the Data Mining Lab, I have worked on multilingual/Chinese
+    During my time at Data Mining Lab, I have worked on multilingual/Chinese
     text error correction, as well as sentiment classification.
   </p>
   <p>
     <strong>I am currently a visiting research student at Singapore Management University (SMU), conducting research on Trustworthy AI for Social Good.</strong>
   </p>
   <p>
-    For academic discussion, feel free to contact me by <a href="mailto:20231003317@mail.gdufs.edu.cn">20231003317@mail.gdufs.edu.cn</a>.
+    For academic discussion, feel free to contact me.
   </p>
 
 portrait_url: /assets/images/photos/me_crop.jpg
@@ -59,5 +58,5 @@ experience:
 awards:
 - name: Honorable Mention in the Mathematical Contest in Modeling (MCM/ICM)
   date: Apr. 2026
-- name: Yunge Scholarship
+- name: Yunge Corporate Scholarship, School of Information Science and Technology, GDUFS
   date: Sep. 2026
