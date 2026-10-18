@@ -1,0 +1,30 @@
+<section class="intro" id="about" aria-labelledby="name">
+    <div class="intro-copy">
+        <h1 id="name">{{ site.data.profile.primary_name }} <span lang="zh-Hans">{{ site.data.profile.secondary_name }}</span></h1>
+        <p class="affiliation">{{ site.data.profile.affiliation }}</p>
+        <div class="bio">
+            <h2 class="small-heading">About me</h2>
+            {{ site.data.profile.short_bio }}
+        </div>
+        <div class="profile-links">
+            {% if site.data.profile.gscholar %}
+            {% if site.data.profile.gscholar contains 'scholar.google' %}{% assign scholar_url = site.data.profile.gscholar %}{% else %}{% assign scholar_url = 'https://scholar.google.com/citations?user=' | append: site.data.profile.gscholar %}{% endif %}
+            <a href="{{ scholar_url }}" target="_blank" rel="noopener noreferrer">Google Scholar <span aria-hidden="true">↗</span></a>
+            {% endif %}
+            {% if site.data.profile.github %}<a href="https://github.com/{{ site.data.profile.github }}" target="_blank" rel="noopener noreferrer">GitHub <span aria-hidden="true">↗</span></a>{% endif %}
+            {% if site.data.profile.cv_link %}<a href="{{ site.data.profile.cv_link | relative_url }}" target="_blank" rel="noopener noreferrer">CV <span aria-hidden="true">↗</span></a>{% endif %}
+        </div>
+    </div>
+    <aside class="intro-aside" aria-label="Portrait and research interests">
+        {% capture portrait_options %}[{% for photo in site.data.profile.portraits %}{"src":{{ photo.url | relative_url | jsonify }},"alt":{{ photo.alt | jsonify }},"position":{{ photo.position | default: '50% 38%' | jsonify }}}{% unless forloop.last %},{% endunless %}{% endfor %}]{% endcapture %}
+        <figure class="portrait-frame">
+            <img id="portrait-image" src="{{ site.data.profile.portrait_url | relative_url }}" data-portraits="{{ portrait_options | strip | escape }}" alt="Portrait of {{ site.data.profile.primary_name }}" width="1050" height="1050" fetchpriority="high">
+        </figure>
+        {% if site.data.profile.research_interests %}
+        <div class="research-interests">
+            <h2 class="eyebrow">Research interests</h2>
+            <ul>{% for interest in site.data.profile.research_interests %}<li>{{ interest }}</li>{% endfor %}</ul>
+        </div>
+        {% endif %}
+    </aside>
+</section>

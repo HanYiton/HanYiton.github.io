@@ -1,0 +1,14 @@
+{% if page.navbar_title == 'Home' %}{% assign home_prefix = '' %}{% else %}{% assign home_prefix = '/' | relative_url %}{% endif %}
+<header class="site-header">
+    <nav class="nav-shell page-width" aria-label="Main navigation">
+        <a class="wordmark" href="{{ home_prefix }}#about">{{ site.data.profile.navbar_name }}<span class="wordmark-dot" aria-hidden="true">.</span></a>
+        <div class="nav-links">
+            <a href="{{ home_prefix }}#about" {% if page.navbar_title == 'Home' %}aria-current="location"{% endif %}>About</a>
+            {% if site.data.display.homepage.show_experience %}<a href="{{ home_prefix }}#experience">Experience</a>{% endif %}
+            {% if site.data.display.homepage.show_news %}<a href="{{ home_prefix }}#news">News</a>{% endif %}
+            <a href="{% if page.navbar_title == 'Home' %}#publications{% else %}{{ '/publications' | relative_url }}{% endif %}" {% if page.navbar_title == 'Publications' %}aria-current="page"{% endif %}>Publications</a>
+            <a class="nav-contact" href="mailto:{{ site.data.profile.email | encode_email }}">Email <span aria-hidden="true">↗</span></a>
+        </div>
+    </nav>
+    <div class="reading-progress" aria-hidden="true"></div>
+</header>

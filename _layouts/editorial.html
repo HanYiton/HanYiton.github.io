@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="en" data-motion="off">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="{{ site.data.profile.primary_name | escape }} — natural language processing, large language models, and trustworthy AI for social good.">
+    <meta name="theme-color" content="#f7f8f4">
+    <title>{{ page.title }} — {{ site.data.profile.primary_name }}</title>
+    <link rel="stylesheet" href="{{ '/assets/css/editorial.css' | relative_url }}">
+    <script src="{{ '/assets/js/editorial.js' | relative_url }}" defer></script>
+    <script src="{{ '/assets/js/editorial-ambient.js' | relative_url }}" defer></script>
+    <script src="{{ '/assets/js/lightbox.js' | relative_url }}" defer></script>
+</head>
+<body data-publications-view="{{ page.publications_view | default: 'selected' }}">
+    <div class="ambient-background" aria-hidden="true">
+        <div class="ambient-wash"></div>
+        <canvas id="ambient-network"></canvas>
+    </div>
+    <a class="skip-link" href="#main">Skip to content</a>
+    {% include editorial/navigation.html %}
+    <main id="main" class="page-width">
+        {{ content }}
+    </main>
+    <footer class="site-footer page-width">
+        <span>{{ site.data.profile.primary_name }} <span lang="zh-Hans">{{ site.data.profile.secondary_name }}</span></span>
+        <span>Personal academic homepage · {{ 'now' | date: '%Y' }}</span>
+        <div class="footer-actions">
+            <button type="button" class="motion-toggle" id="toggle-motion" aria-pressed="false">Motion: off</button>
+            <a href="{% if page.navbar_title == 'Home' %}#about{% else %}#publications{% endif %}">Back to top ↑</a>
+        </div>
+    </footer>
+</body>
+</html>

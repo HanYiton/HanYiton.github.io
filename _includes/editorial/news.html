@@ -1,0 +1,9 @@
+{% assign recent_news = site.news | sort: 'date' | reverse %}
+<section id="news" class="section news" aria-labelledby="news-heading">
+    <div class="section-heading"><div class="section-title"><span class="section-index" aria-hidden="true">02</span><h2 id="news-heading">News</h2></div></div>
+    <ol class="news-list">
+        {% for item in recent_news limit:site.data.display.homepage.num_news %}
+        <li><time datetime="{{ item.date | date: '%Y-%m-%d' }}">{{ item.date | date: '%b %Y' }}</time><div class="news-text">{{ item.title | markdownify }}</div></li>
+        {% endfor %}
+    </ol>
+</section>

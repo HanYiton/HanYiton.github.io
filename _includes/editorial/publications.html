@@ -1,0 +1,18 @@
+{% assign publications = site.publications | sort: 'date' | reverse %}
+{% assign selected_publications = publications | where: 'selected', true %}
+{% assign selected_only = true %}{% if page.publications_view == 'all' %}{% assign selected_only = false %}{% endif %}
+<section id="publications" class="publications section {% if page.navbar_title == 'Publications' %}publications-page{% endif %}" aria-labelledby="publications-heading">
+    <div class="section-heading">
+        <div class="section-title"><span class="section-index" aria-hidden="true">03</span><h2 id="publications-heading">Publications</h2></div>
+        <div class="paper-filters" role="group" aria-label="Filter publications">
+            <button type="button" data-filter="selected" aria-pressed="{{ selected_only }}">Selected</button>
+            <button type="button" data-filter="all" aria-pressed="{% if selected_only %}false{% else %}true{% endif %}">All papers <span>{{ publications.size }}</span></button>
+        </div>
+    </div>
+    <p class="author-note"><span>* Equal contribution</span><span>† Corresponding author</span></p>
+    <div class="paper-list">
+        {% for item in publications %}{% include editorial/publication.html item=item selected_only=selected_only %}{% endfor %}
+    </div>
+    <p id="paper-status" class="sr-only" role="status" aria-live="polite">{% if selected_only %}Showing {{ selected_publications.size }} selected publications.{% else %}Showing {{ publications.size }} total publications.{% endif %}</p>
+    <button class="text-button all-papers-link" id="all-papers-link" type="button" {% unless selected_only %}hidden{% endunless %}>Explore all {{ publications.size }} publications <span aria-hidden="true">→</span></button>
+</section>

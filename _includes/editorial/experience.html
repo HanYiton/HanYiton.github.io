@@ -1,0 +1,35 @@
+<section id="experience" class="section experience" aria-label="Research experience, education, and awards">
+    <span class="section-index experience-index" aria-hidden="true">01</span>
+    <div class="experience-grid">
+        <section class="experience-group research-group" aria-labelledby="experience-heading">
+            <h2 class="experience-group-heading" id="experience-heading">Research Experience</h2>
+            {% for item in site.data.profile.experience %}
+            <article class="timeline-item">
+                <span class="timeline-dot" aria-hidden="true"></span>
+                <p class="timeline-date">{{ item.date | replace: '.', '' | replace: ' - ', ' — ' }}</p>
+                <h3 class="institution-heading {% unless item.logo %}without-logo{% endunless %}">{% if item.logo %}<img class="institution-logo" src="{{ item.logo | relative_url }}" alt="" width="36" height="40">{% endif %}<span>{{ item.name }}</span></h3>
+                <p class="timeline-role">{{ item.position }}</p>
+                {% if item.dept %}<p class="timeline-detail">{{ item.dept }}</p>{% endif %}
+            </article>
+            {% endfor %}
+        </section>
+        <section class="experience-group education-group" aria-labelledby="education-heading">
+            <h2 class="experience-group-heading" id="education-heading">Education</h2>
+            {% for item in site.data.profile.education %}
+            <article class="education-item">
+                <p class="timeline-date">{{ item.date | replace: '.', '' | replace: ' - ', ' — ' }}</p>
+                <h3 class="institution-heading {% unless item.logo %}without-logo{% endunless %}">{% if item.logo %}<img class="institution-logo" src="{{ item.logo | relative_url }}" alt="" width="36" height="40">{% endif %}<span>{{ item.name }}</span></h3>
+                <p class="timeline-role">{{ item.position }}</p>
+                {% if item.dept %}<p class="timeline-detail">{{ item.dept }}</p>{% endif %}
+            </article>
+            {% endfor %}
+        </section>
+        <section class="experience-group honors-group" aria-labelledby="honors-heading">
+            <h2 class="experience-group-heading" id="honors-heading">Honors &amp; Awards</h2>
+            <div class="honors">
+                {% assign awards = site.data.profile.awards | reverse %}
+                {% for item in awards %}<div><span>{{ item.name }}</span><span class="award-year">{{ item.date | split: ' ' | last }}</span></div>{% endfor %}
+            </div>
+        </section>
+    </div>
+</section>

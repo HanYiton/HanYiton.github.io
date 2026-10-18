@@ -1,0 +1,25 @@
+{% assign item = include.item %}
+<article class="paper" data-selected="{{ item.selected | default: false }}" {% if include.selected_only and item.selected != true %}hidden{% endif %}>
+    {% if item.cover %}
+    <a class="paper-figure" href="{{ item.cover | relative_url }}" data-lightbox aria-label="View figure: {{ item.title | escape }}">
+        <img src="{{ item.cover | relative_url }}" alt="{{ item.title | escape }} framework" width="300" height="180" loading="lazy">
+    </a>
+    {% else %}<div class="paper-figure paper-placeholder" aria-hidden="true">{{ item.venue_short | default: item.pub | strip_html }}</div>{% endif %}
+    <div class="paper-copy">
+        <div class="paper-meta">
+            <span class="venue {% if item.pub contains 'Journal' %}journal-venue{% endif %}">{{ item.venue_short | default: item.pub }}</span>
+            <span class="paper-year">{% if item.pub_date %}{{ item.pub_date }}{% else %}{{ item.date | date: '%Y' }}{% endif %}</span>
+            {% if item.pub contains 'arXiv' %}<span class="paper-type">Preprint</span>{% endif %}
+            {{ item.pub_last }}
+        </div>
+        <h3>{% if item.link %}<a href="{{ item.link }}" target="_blank" rel="noopener noreferrer">{{ item.title }}</a>{% elsif item.links.Paper and item.links.Paper.url == nil %}<a href="{{ item.links.Paper }}" target="_blank" rel="noopener noreferrer">{{ item.title }}</a>{% else %}{{ item.title }}{% endif %}</h3>
+        <p class="authors">{% include widgets/author_list.html authors=item.authors %}</p>
+        {% if item.links %}
+        <div class="paper-links">
+            {% for link in item.links %}
+            {% if link[1].url %}<a href="{{ link[1].url }}" target="{{ link[1].target | default: '_blank' }}" rel="noopener noreferrer">{{ link[0] }} <span aria-hidden="true">↗</span></a>{% else %}<a href="{{ link[1] }}" target="_blank" rel="noopener noreferrer">{{ link[0] }} <span aria-hidden="true">↗</span></a>{% endif %}
+            {% endfor %}
+        </div>
+        {% endif %}
+    </div>
+</article>
